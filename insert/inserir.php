@@ -3,7 +3,7 @@
 // Inclui o script de conexão.
 include  "../conexao.php";
 
-// Query responsável por inserir novos dados no db.
+// Query responsável por inserir novos registros na tabela.
 $query = "INSERT INTO tabela (nome, idade, sexo) VALUES ('Allan', '28', 'Masculino')";
 
 // Através da função mysql_query(), a query é executada.
