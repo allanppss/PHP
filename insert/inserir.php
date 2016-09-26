@@ -1,11 +1,11 @@
 <?php
 
 // Inclui o script de conexão.
-require_once('conexao.php');
-
+include  "../conexao.php";
 
 // Query responsável por inserir novos dados no db.
 $query = "INSERT INTO tabela (nome, idade, sexo) VALUES ('Allan', '28', 'Masculino')";
+
 // Através da função mysql_query(), a query é executada.
 $sql = mysql_query($query);
 
